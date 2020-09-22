@@ -18,6 +18,10 @@
 //     console.log(i);
 // }
 
+for(let i=0; i<5; i++) {
+    console.log(i);
+}
+
 //b. For/In Loop
 // const buku = {
 //     judul: "To All the Boys I've Loved Before",
@@ -28,15 +32,43 @@
 //     console.log(x, ':', buku[x]);
 // }
 
-//c. For/Of Loop
-// const buku = ["To All the Boys I've Loved Before",
-//     "P.S. I Still Love You",
-//     "Always and Forever, Lara Jean"
-// ];
-
-// for (x of buku) {
-//     console.log(x);
+// const room = {
+//     color: 'green',
+//     furniture: 'informa',
+//     year: 2011
 // }
+
+// for(x in room) {
+//     console.log(x, ':', room[x]);
+// }
+
+// console.log(room);
+
+// const folder = {
+//     red: 'math',
+//     yellow: 'english',
+//     green: 'biology',
+//     blue: 'civics'
+// }
+
+// for(x in folder) {
+//     console.log(x, ' = ', folder[x]);
+// }
+
+//c. For/Of Loop
+const buku = ["To All the Boys I've Loved Before",
+    "P.S. I Still Love You",
+    "Always and Forever, Lara Jean"
+];
+
+for (x of buku) {
+    console.log(x);
+}
+
+const colors = ['red', 'yellow', 'green', 'blue', 'purple'];
+for(x of colors) {
+    console.log(x);
+}
 
 //d. While Loop
 // let i = 1;

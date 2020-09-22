@@ -11,14 +11,14 @@
 
 // 1. Variabel dan Tipe Data
 
-const namaDepan = "John";
-let umur = 20;
-umur = 21;
-const isMarried = true;
+// const namaDepan = "John";
+// let umur = 20;
+// umur = 21;
+// const isMarried = true;
 
-console.log(typeof namaDepan);
-console.log(typeof umur);
-console.log(typeof isMarried);
+// console.log(typeof namaDepan);
+// console.log(typeof umur);
+// console.log(typeof isMarried);
 
 console.log("My name is " + namaDepan + " and I am " + umur + " years old. It's " + isMarried + " that I'm married.");
 
@@ -31,5 +31,5 @@ console.log(typeof info);
 
 let bilangan = 10;
 
-console.log(bilangan == "10"); //Lose Equality
+console.log(bilangan == "10"); //Loose Equality
 console.log(bilangan === "10"); //Strict Equality
