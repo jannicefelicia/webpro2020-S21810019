@@ -1,16 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
-import Hello from './components/Hello';
-import Content from './components/Content';
+import Container from './Components/container.js';
+import './stylesheet/style.min.css';
 
 function App() {
   return (
-    <>
-      <Header />
-      <Hello />
-      <Content />
-    </>
+    <div className="App">
+      <h1>react people!</h1>
+      <Container />
+    </div>
   );
 }
 
