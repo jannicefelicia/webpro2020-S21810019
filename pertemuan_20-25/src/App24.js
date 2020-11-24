@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import Card from "./Components/Card.js"
+import Card from "./Components/Card.js.js"
 import "./App.css"
 import axios from 'axios';
 
